@@ -59,7 +59,7 @@ const index = () => {
   const softSkill = ["Scrum Method", "Adaptive Design", "Analytical Thinking"];
 
   return (
-    <div className="grid md:grid-cols-2 grid-cols-1 gap-4 container justify-center mx-auto text-white py-14">
+    <div className="grid md:grid-cols-2 grid-cols-1 gap-4 px-2 container  mx-auto text-white py-14 ">
       <div className="flex flex-col ">
         <h1 className=" text-2xl font-medium">LIL BIT DESCRIPTION</h1>
         <div className="flex flex-row gap-9 py-2">

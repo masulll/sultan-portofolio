@@ -1,4 +1,3 @@
-import { faArrowAltCircleDown } from "@fortawesome/free-regular-svg-icons";
 import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
@@ -17,8 +16,8 @@ const index = () => {
         />
         <div className="absolute top-40 z-20 text-white text-center">
           <h1 className="uppercase sm:text-8xl text-4xl ">HELLO, I'M </h1>
-          <h1 className=" uppercase text-4xl"> sultan rayhan </h1>
-          <h1 className="sm:text-md text-xs text-wrap sm:mx-52 mx-8">
+          <h1 className=" uppercase sm:text-8xl text-4xl"> sultan rayhan </h1>
+          <h1 className="sm:text-md text-sm text-wrap  py-3 sm:mx-56  mx-auto">
             A person who is passionate as a developer, loves to explore new
             experiences, and thrives on the challenges of pushing boundaries and
             innovating in the ever-evolving world of technology.

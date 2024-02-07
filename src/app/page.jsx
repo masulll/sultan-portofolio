@@ -1,8 +1,6 @@
 import Cards from "@/components/Cards";
 import NameField from "@/components/NameField";
 import Header from "@/components/Cards/Header";
-import Navbar from "@/components/Navbar";
-import Image from "next/image";
 import Landing from "@/components/Landing";
 export default function Home() {
   return (
@@ -10,7 +8,7 @@ export default function Home() {
       <section id="home">
         <Landing />
       </section>
-      <section id="about" className=" my-10">
+      <section id="about" className=" my-10 px">
         <Header title={"RESUME"} title_desc={"ABOUT ME"} />
         <NameField />
       </section>

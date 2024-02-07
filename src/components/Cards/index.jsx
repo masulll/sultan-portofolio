@@ -20,7 +20,7 @@ const Cards = () => {
   };
 
   return (
-    <div className="flex flex-col justify-center items-center gap-3 py-14 ">
+    <div className="flex flex-col justify-center items-center gap-3 py-14 px-3">
       {/* <div className="flex flex-row gap-2 font-light">
         <h1 className="text-white">ALL</h1>
         <h1 className="text-white">WEB DEVELOPMENT</h1>
