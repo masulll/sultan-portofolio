@@ -16,9 +16,9 @@ const index = () => {
           src={"/Group1.png"}
         />
         <div className="absolute top-40 z-20 text-white text-center">
-          <h1 className="uppercase text-8xl ">HELLO, I'M </h1>
-          <h1 className=" uppercase text-8xl"> sultan rayhan </h1>
-          <h1 className="text-md text-wrap mx-52">
+          <h1 className="uppercase sm:text-8xl text-4xl ">HELLO, I'M </h1>
+          <h1 className=" uppercase text-4xl"> sultan rayhan </h1>
+          <h1 className="sm:text-md text-xs text-wrap sm:mx-52 mx-8">
             A person who is passionate as a developer, loves to explore new
             experiences, and thrives on the challenges of pushing boundaries and
             innovating in the ever-evolving world of technology.
@@ -29,7 +29,7 @@ const index = () => {
         <Link
           href={"/#about"}
           scroll={true}
-          className=" absolute bottom-20 border-2 rounded-full p-2 hover:bg-white hover:text-black fa-bounce z-50"
+          className=" sm:absolute relative bottom-10 border-2 rounded-full p-2 hover:bg-white hover:text-black fa-bounce z-20"
         >
           <FontAwesomeIcon icon={faArrowDown} className="text-2xl " />
         </Link>
